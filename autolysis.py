@@ -111,7 +111,7 @@ def construct_dynamic_prompt(analysis):
 # Function to query the LLM for insights
 def query_llm(prompt):
     """Query the LLM with a concise prompt."""
-    aiproxy_token = os.getenv("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDE2NTJAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.6Awo3wRrJsUNnYb5ExJuXDn0QfrsZ7uhTCjp6ILYsyA")
+    aiproxy_token = os.getenv("AIPROXY_TOKEN")
     if not aiproxy_token:
         raise EnvironmentError("AIPROXY_TOKEN not found in environment variables.")
 
