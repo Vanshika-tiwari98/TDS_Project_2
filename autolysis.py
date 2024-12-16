@@ -13,7 +13,7 @@ import sys
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import requests
+
 
 # Function to load data from a CSV file
 def load_data(file_path):
